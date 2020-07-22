@@ -5,7 +5,7 @@ Home: https://CRAN.R-project.org/package=Ckmeans.1d.dp
 
 Package license: LGPL-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Fast, optimal, and reproducible weighted univariate clustering by dynamic programming. Four types of problem including univariate k-means, k-median, k-segments, and multi-channel weighted k-means are solved with guaranteed optimality and reproducibility. The core algorithm minimizes the sum of (weighted) within-cluster distances using respective metrics. Its advantage over heuristic clustering in efficiency and accuracy is pronounced at a large number of clusters k. Weighted k-means can also process time series to perform peak calling. Multi-channel weighted k-means groups multiple univariate signals into k clusters. An auxiliary function generates histograms that are adaptive to patterns in data. This package provides a powerful set of tools for univariate data analysis with guaranteed optimality, efficiency, and reproducibility.
 
