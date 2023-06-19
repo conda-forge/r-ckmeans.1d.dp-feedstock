@@ -1,11 +1,22 @@
+About r-ckmeans.1d.dp-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ckmeans.1d.dp-feedstock/blob/main/LICENSE.txt)
+
 About r-ckmeans.1d.dp
-=====================
+---------------------
 
 Home: https://CRAN.R-project.org/package=Ckmeans.1d.dp
 
 Package license: LGPL-3
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ckmeans.1d.dp-feedstock/blob/main/LICENSE.txt)
+Summary: Fast, optimal, and reproducible weighted univariate clustering by dynamic programming. Four types of problem including univariate k-means, k-median, k-segments, and multi-channel weighted k-means are solved with guaranteed optimality and reproducibility. The core algorithm minimizes the sum of (weighted) within-cluster distances using respective metrics. Its advantage over heuristic clustering in efficiency and accuracy is pronounced at a large number of clusters k. Weighted k-means can also process time series to perform peak calling. Multi-channel weighted k-means groups multiple univariate signals into k clusters. An auxiliary function generates histograms that are adaptive to patterns in data. This package provides a powerful set of tools for univariate data analysis with guaranteed optimality, efficiency, and reproducibility.
+About r-ckmeans.1d.dp
+---------------------
+
+Home: https://CRAN.R-project.org/package=Ckmeans.1d.dp
+
+Package license: LGPL-3
 
 Summary: Fast, optimal, and reproducible weighted univariate clustering by dynamic programming. Four types of problem including univariate k-means, k-median, k-segments, and multi-channel weighted k-means are solved with guaranteed optimality and reproducibility. The core algorithm minimizes the sum of (weighted) within-cluster distances using respective metrics. Its advantage over heuristic clustering in efficiency and accuracy is pronounced at a large number of clusters k. Weighted k-means can also process time series to perform peak calling. Multi-channel weighted k-means groups multiple univariate signals into k clusters. An auxiliary function generates histograms that are adaptive to patterns in data. This package provides a powerful set of tools for univariate data analysis with guaranteed optimality, efficiency, and reproducibility.
 
@@ -27,38 +38,38 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8335&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ckmeans.1d.dp-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8335&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ckmeans.1d.dp-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ckmeans.1d.dp-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8335&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ckmeans.1d.dp-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ckmeans.1d.dp-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8335&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ckmeans.1d.dp-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ckmeans.1d.dp-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8335&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ckmeans.1d.dp-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8335&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ckmeans.1d.dp-feedstock?branchName=main&jobName=win&configuration=win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ckmeans.1d.dp-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
